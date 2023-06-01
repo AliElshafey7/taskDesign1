@@ -1,0 +1,633 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    color: gray;
+    height: 150px;
+    /* background-color: black; */
+}
+.left-side{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.left-side i{
+    position: absolute;
+    left: 15px;
+    top: 68px;
+    padding-right: 10px;
+}
+.left-side input{
+    height: 40px;
+    border-radius: 50px;
+    padding: 7px 16px 9px 45px;
+    border: none;
+}
+.left-side input:focus{ 
+    outline: none;
+}
+.middle{
+    display: flex;
+    align-items: center;
+}
+.middle h3{
+    border: 3px solid black;
+    padding: 10px;
+    cursor: pointer;
+    color: black;
+    margin-right: 30px;
+}
+.righ-side{
+    display: flex;
+    align-items: center;
+}
+.righ-side i{
+    padding: 10px;
+    cursor: pointer;
+}
+.righ-side i:hover{
+    color: black;
+}
+.head{
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.head a{
+    text-decoration: none;
+    padding: 15px;
+    color: gray;
+}
+.head a:hover{
+    color: blueviolet;
+}
+.sec1{
+    width: 100%;
+    height: 700px;
+}
+.hero img{
+    width: 100%;
+    position: relative;
+}
+.hero-word{
+    position: absolute;
+    left: 60%;
+    bottom: 20px;
+}
+.hero-word h1{
+    font-size: 350%;
+}
+.hero-word p{
+    font-size: larger;
+}
+.hero-word button{
+    color: whitesmoke;
+    background-color: blueviolet;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.hero-word button:hover{
+    background-color: rgb(101, 21, 175);
+    transform: translate(0px,-1.5px);
+}
+.sec2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.left-div i{
+    position: absolute;
+    margin-top: 25px;
+    left: 50px;
+    font-size: 35px;
+    color: blueviolet;
+}
+.middle-div i{
+    position: absolute;
+    margin-top: 25px;
+    right: 925px;
+    font-size: 35px;
+    color: blueviolet;
+}
+.right-div i{
+    position: absolute;
+    margin-top: 25px;
+    right: 420px;
+    font-size: 35px;
+    color: blueviolet;
+}
+.sec3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    height: 500px;
+}
+.left-img{
+    margin-left: 180px;
+    
+}
+.right-img{
+    margin-right: 180px;
+    
+}
+.left-img img{
+    position: relative;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.left-img img:hover{
+    transform: scale(1.1);
+}
+.left-img p{
+    position: absolute;
+    top: 1590px;
+    left: 245px;
+    font-size: 10px; 
+    font-weight: bold; 
+}
+.left-img h2{
+    position: absolute;
+    top: 1600px;
+    left: 245px;
+}
+.middle-img {
+    position: relative;
+}
+.middle-img img{
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.middle-img img:hover{
+    transform: scale(1.1);
+}
+
+.middle-img p{
+    position: absolute;
+    top: 330px;
+    font-size: 10px;
+    left: 12px;
+    font-weight: bold;
+}
+.middle-img h2{
+    position: absolute;
+    top: 335px;
+    left: 12px;
+    
+}
+.right-img{
+    position: relative;
+}
+.right-img img{
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.right-img img:hover{
+    transform: scale(1.1);
+}
+
+.right-img p{
+    position: absolute;
+    top: 330px;
+    font-size: 10px;
+    left: 12px;
+    font-weight: bold;
+}
+.right-img h2{
+    position: absolute;
+    top: 335px;
+    left: 12px;
+}
+.sec4{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-card{
+    width: 400px;
+    background-color: white;
+    margin-left: 80px;
+}
+.left-card h2{
+    text-align: center;
+    color: blueviolet;
+}
+.left-card p{
+    text-align: center;
+}
+.price{
+    color: blueviolet;
+}
+.middle-card{
+    width: 400px;
+    background-color: white;
+}
+.middle-card h1{
+    position: absolute;
+    margin-left: 80px;
+    top: 1800px;
+}
+.middle-card h2{
+    text-align: center;
+    color: blueviolet;
+}
+.middle-card p{
+    text-align: center;
+}
+.right-card{
+    margin-right: 80px ;
+    width: 400px;
+    background-color: white;
+}
+.right-card h2{
+    text-align: center;
+    color: blueviolet;
+}
+.right-card p{
+    text-align: center;
+}
+.sec5{
+    margin-top: 70px;
+    height: 650px;
+}
+.sec5 h1{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.sale{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.info{
+    margin-right: 200px;
+}
+.info h2{
+    text-align: center;
+    color: blueviolet;
+}
+.info button{
+    margin-left: 150px;
+    width: 120px;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.info button:hover{
+    background-color: rgb(101, 21, 175);
+    transform: translate(0px,-1.5px);
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.div2{
+    margin-top: 50px;
+}
+.div3 h5{
+    color: blueviolet;
+}   
+.flex1{
+    display: flex;
+    align-items: center;
+}
+.flex1 i{
+    color: blueviolet;
+    margin-right: 10px;
+}
+.person-info h4{
+    font-size: 20px;
+}
+.person-info input{
+    height: 35px;
+    width: 180px;
+    position: relative;
+}
+.person-info button{
+    height: 40px;
+    position: absolute;
+    right: 140px;
+    width: 70px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+.copyright{
+    margin-top: 100px;
+    text-align: center;
+}
+.about{
+    width: 100%;
+    height: 60px;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.about p{
+    margin-left: 50px;
+}
+.about-start{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+}
+.Team{
+    margin-bottom: 50px;
+}
+.Team h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.team-info{
+    display: flex;
+    justify-content: space-around;
+}
+.team-info img{
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.team-info p{
+    color: gray;
+}
+.type1{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.type{
+    color: blueviolet;
+}
+.CATEGORIES{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 60px;
+}
+.filter{
+    border: 1px solid black;
+    padding: 10px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.sec11{
+    width: 300px;
+    height: 1730px;
+    /* background-color: black; */
+}
+.sec22{
+    width: 1200px;
+    height: 50px;
+    margin-left: 50px;
+    /* background-color: blue; */
+}
+.sec221{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.sec33{
+    display: flex;
+}
+.Shop-all h2{
+    position: absolute;
+    bottom: 310px;
+}
+.select{
+    margin-right: 50px;
+}
+.select select{
+    padding: 5px;
+    border: none;
+    background-color: whitesmoke;
+}
+.select select:hover{
+    background-color: rgb(204, 195, 195);
+    transform: translate(0px,-1.5px);
+}
+.select select:focus{
+    outline: none;
+}
+
+.sec44{
+    /* background-color: brown; */
+    width: 1150px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.imgs{
+    box-shadow: 1px 1px 2px 2px whitesmoke;
+}
+.imgs h2{
+    color: blueviolet;
+    text-align: center; 
+}
+.imgs p{
+    text-align: center ;
+}
+.sec55{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.repeat{
+    margin-top: 200px;
+}
+.repeat h2{
+    text-align: center;
+}
+.tank{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Tank-Top{
+    margin-right: 200px;
+}
+.Tank-Top a button{
+    width: 150px;
+    background-color: blueviolet;
+    border-radius: 3px;
+    border: none;
+    height: 40px;
+}
+.Tank-Top a button{
+    color: white;
+    text-decoration: none;
+}
+.Tank-Top button:hover{
+    background-color: rgb(101, 21, 175);
+    transform: translate(0px,-1.5px);
+}
+.feat-products{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 600px;
+    background-color: whitesmoke;
+}
+.middle-product h1{
+    position: absolute;
+}
+.left-product h2{
+    text-align: center;
+}
+.left-product p{
+    text-align: center;
+}
+.middle-product h2{
+    text-align: center;
+}
+.middle-product p{
+    text-align: center;
+}
+.middle-product h1{
+    top: 1000px;
+    left: 620px;
+}
+.righ-product h2{
+    text-align: center;
+}
+.righ-product p{
+    text-align: center;
+}
+.table1{
+    margin-left: 250px;
+}
+.table, th, td {
+    border:1px solid black;
+    padding: 40px;
+}
+.button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+.total{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+.total button{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.total button:hover{
+    background-color: rgb(101, 21, 175);
+    transform: translate(0px,-1.5px);
+}
+.total input{
+    height: 30px;
+}
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+}
+.login input{
+    width: 1000px;
+    height: 50px;
+    border-radius: 3px;
+    margin-left: 200px;
+}
+.form1{
+    width: 400px;
+    padding: 15px;
+    margin-left: 100px;
+}
+.form1 form{
+    border: 1px solid black;
+    padding: 25px;
+}
+.form2{
+    width: 400px;
+    border: 1px solid black;
+    padding: 15px;
+}
+.form2 button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+.form3{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 15px;
+}
+.formm{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.form4{
+    margin-right: 100px;
+}
+.form4 h5{
+    color: blueviolet;
+    border: 1px solid black;
+    padding: 10px;
+}
+.form4 a button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    width: 300px;
+    height: 40px;
+    border-radius: 3px;
+    margin-left: 55px;
+}
+.form4 a button:hover{
+    background-color: rgb(101, 21, 175);
+    transform: translate(0px,-1.5px);
+}
+.last{
+    width: 350px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.last h1{
+    font-size: 300%;
+}
+.last a button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 40px;
+    width: 150px;
+}
+.last a button:hover{
+    background-color: rgb(101, 21, 175);
+    transform: translate(0px,-1.5px);
+}
